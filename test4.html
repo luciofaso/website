@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommunityB - Facilitation pour des Communautés Résilientes</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #90caf9;
+            padding: 40px 10%;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background-color: #1f1f1f;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            text-decoration: none;
+            color: #90caf9;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #e3f2fd;
+        }
+        section {
+            margin: 40px 10%;
+        }
+        section h2 {
+            font-size: 2em;
+            color: #90caf9;
+            margin-bottom: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .cta button {
+            background-color: #90caf9;
+            color: #121212;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .cta button:hover {
+            background-color: #64b5f6;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 30px 10%;
+            margin-top: 50px;
+        }
+        footer a {
+            color: #90caf9;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .service-card {
+            background: #1e1e1e;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .service-card h3 {
+            color: #90caf9;
+            margin-bottom: 10px;
+        }
+        .events {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .event-card {
+            background-color: #1e1e1e;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .event-card h4 {
+            color: #90caf9;
+            margin-bottom: 10px;
+        }
+        form {
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        form label {
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            font-size: 1em;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        form button {
+            background-color: #90caf9;
+            color: #121212;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #64b5f6;
+        }
+        .video-thumbnail {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .video-thumbnail img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CommunityB</h1>
+        <p>Nous accompagnons les individus et les groupes dans la création de communautés résilientes et durables.</p>
+    </header>
+
+    <nav>
+        <a href="#qui-suis-je">Qui suis-je</a>
+        <a href="#services">Services</a>
+        <a href="#ressources">Ressources</a>
+        <a href="#evenements">Événements</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+
+    <section id="qui-suis-je">
+        <h2>Qui suis-je</h2>
+        <p>Je m'appelle [Votre Nom], facilitateur de communauté avec des années d'expérience dans l'accompagnement des personnes et des groupes vers une croissance partagée. Je crois au potentiel transformateur des communautés, même dans les moments difficiles. Avec des compétences en sociocratie, CNV et design organisationnel, je suis là pour vous aider à construire des liens significatifs et résilients.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-card">
+            <h3>Coaching Individuel</h3>
+            <p>Un accompagnement personnalisé pour vous aider à surmonter les défis personnels et communautaires.</p>
+        </div>
+        <div class="service-card">
+            <h3>Audit Communautaire</h3>
+            <p>Analyse et diagnostic pour identifier les blocages et les potentiels de croissance.</p>
+        </div>
+        <div class="service-card">
+            <h3>Facilitation d'Événements</h3>
+            <p>Conception et animation d'événements significatifs pour votre communauté.</p>
+        </div>
+    </section>
+
+    <section id="ressources">
+        <h2>Ressources</h2>
+        <p>Explorez des outils et des approfondissements :</p>
+        <ul>
+            <li><a href="#">PDF gratuit : 5 Étapes pour Renforcer Votre Communauté</a></li>
+            <li><a href="#">Articles de blog</a></li>
+        </ul>
+    </section>
+
+    <section id="evenements">
+        <h2>Événements</h2>
+        <div class="events">
+            <div class="event-card">
+                <h4>Atelier : Créer une Communauté Résiliente</h4>
+                <p>Date : 10 février 2025</p>
+                <button>S'inscrire</button>
+            </div>
+            <div class="event-card">
+                <h4>Webinaire : Gérer les Conflits avec Empathie</h4>
+                <p>Date : 20 mars 2025</p>
+                <button>S'inscrire</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <form action="mailto:luciofaso@gmail.com" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <div class="video-thumbnail">
+        <h2>Découvrez une vidéo inspirante</h2>
+        <a href="https://www.youtube.com/watch?v=v-umccMg7x0&t=32s&pp=ygUccm9tYWluIGNlcmNsZSBww6hyZSBncmVub2JsZQ%3D%3D" target="_blank">
+            <img src="https://img.youtube.com/vi/v-umccMg7x0/maxresdefault.jpg" alt="Vidéo YouTube - Créer une communauté résiliente">
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CommunityB | <a href="mailto:luciofaso@gmail.com">Contactez-nous</a></p>
+    </footer>
+</body>
+</html>
